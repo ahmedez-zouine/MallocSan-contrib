@@ -1,0 +1,42 @@
+# Preprints, notes, and local docs
+docs/
+memoire/
+
+# Autotools and build system outputs
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+build-aux/
+build/
+config.h
+config.h.in
+config.log
+config.status
+configure
+libtool
+stamp-h1
+*.stamp
+m4/
+pkgconfig/
+third_party/
+
+# Compiled objects, libraries, and dependencies
+*.o
+*.lo
+*.la
+*.so*
+*.a
+.deps/
+.libs/
+.dirstamp
+
+# Submodule build artifacts
+external/libolx/.configure/
+external/libpatch/.builds/
+
+# Test binaries
+tests/simple-dw
+tests/**/.deps/
+tests/**/.dirstamp
+tests/**/*.o
