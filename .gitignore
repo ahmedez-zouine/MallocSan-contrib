@@ -1,6 +1,6 @@
 # Preprints, notes, and local docs
 docs/
-memoire/
+mem*/*
 
 # Autotools and build system outputs
 Makefile
