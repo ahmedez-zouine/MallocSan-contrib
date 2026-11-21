@@ -1,0 +1,14 @@
+There was a total of 12 protected malloc on 12 candidates
+
+#     ip                 func                                     off        hits       len      m_args    index  post   defer      strat  disasm
+0     0x5798de9261d6     main                                     0xf6       10         4        1         1      1      0          1      mov qword ptr [r15 + r14*8], rax
+1     0x5798de92621a     main                                     0x13a      10         4        1         1      1      0          1      mov rsi, qword ptr [r15 + rdx*8]
+2     0x5798de9261ca     main                                     0xea       10         3        1         0      1      0          1      mov qword ptr [rax], rsi
+3     0x5798de9262cf     main                                     0x1ef      10000      3        1         0      0      0          1      movsx edx, byte ptr [rdx]
+4     0x5798de926222     main                                     0x142      10         3        1         0      1      1          1      mov qword ptr [rsi], r10
+5     0x5798de92626a     main                                     0x18a      10         4        1         1      1      0          1      mov r8, qword ptr [r15 + r14*8]
+6     0x710d74e471a8     -- no symbol --                          0x0        10         4        1         0      1      0          3      mov byte ptr [rax + 8], 0
+7     0x5798de9262c8     main                                     0x1e8      10000      3        1         0      1      0          1      mov rdx, qword ptr [rax]
+8     0x5798de9261fa     main                                     0x11a      10         3        1         0      1      0          1      mov byte ptr [rax + 7], dl
+9     0x5798de926130     main                                     0x50       1          6        1         0      1      0          1      mov dword ptr [rax], 0x434241
+10    0x5798de92634f     main                                     0x26f      10         4        1         1      1      0          1      mov r14, qword ptr [r9 + r12*8]
